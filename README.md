@@ -1,5 +1,10 @@
 # rust-auth-microservice
 
+![github actions](https://github.com/mashafrancis/rust-auth-microservice/workflows/build/badge.svg)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/0f17a70e7245d9c62755/test_coverage)](https://codeclimate.com/github/mashafrancis/rust-auth-microservice/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/0f17a70e7245d9c62755/maintainability)](https://codeclimate.com/github/mashafrancis/rust-auth-microservice/maintainability)
+
+
 An authentication microservice built in Rust.
 
 This implements the ability to register new users, and authenticate existing users. No authorization (e.g. RBAC) has been implemented, this would be done in a separate microservice.
